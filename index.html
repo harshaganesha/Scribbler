@@ -26,19 +26,130 @@
 					<p>Explore, Imagine, Create</p>
 				</div>
 				<div class="Sign_Button">
-					<button type="submit" id="SignUp" >Sign Up</button>
-					<button type="submit" id= "SignIn" >Sign In</button>
+					<button type="submit" id="SignUp" data-toggle="modal" data-target="#SignUpModal">Sign Up</button>
+					<button type="submit" id= "SignIn" data-toggle="modal" data-target="#SignInModal">Sign In</button>
 				</div>
 			</div>
 		</header> 
 		<div class="PostButton">
-			<button type="submit"  id="AllPosts" >All Posts</button>
-			<button type="submit"  id= "CreatePost" >Create Post</button>
+			<button type="submit"  id="AllPosts" data-toggle="modal" data-target="#AllPostsModal" >All Posts</button>
+			<button type="submit"  id= "CreatePost" data-toggle="modal" data-target="#CreatePostModal">Create Post</button>
 		</div>
 
 	</div>
-	
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Sign up modal -->
+	<div class="modal fade" id="SignUpModal" tabindex="-1" role="dialog" aria-labelledby="SignUpModalLabel" aria-hidden="true">
+		<div class="modal-dialog" role="document">
+		  <div class="modal-content">
+			<div class="modal-header">
+			  <h5 class="modal-title" id="SignUpModalLabel">Get Started</h5>
+			  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				<span aria-hidden="true">&times;</span>
+			  </button>
+			</div>
+			<div class="modal-body">
+			  ...
+			</div>
+			<div class="modal-footer">
+			  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+			  <button type="button" class="btn btn-primary">Save changes</button>
+			</div>
+		  </div>
+		</div>
+	  </div>
+
+	  <!-- Sign In modal -->
+	<div class="modal fade" id="SignInModal" tabindex="-1" role="dialog" aria-labelledby="SignInModalLabel" aria-hidden="true">
+		<div class="modal-dialog" role="document">
+		  <div class="modal-content">
+			<div class="modal-header">
+			  <h5 class="modal-title" id="SignInModalLabel">Welcome Back!</h5>
+			  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				<span aria-hidden="true">&times;</span>
+			  </button>
+			</div>
+			<div class="modal-body">
+			  ...
+			</div>
+			<div class="modal-footer">
+			  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+			  <button type="button" class="btn btn-primary">Save changes</button>
+			</div>
+		  </div>
+		</div>
+	  </div>
+
+	  <!-- Create Post modal -->
+	<div class="modal fade" id="CreatePost" tabindex="-1" role="dialog" aria-labelledby="CreatePostLabel" aria-hidden="true">
+		<div class="modal-dialog" role="document">
+		  <div class="modal-content">
+			<div class="modal-header">
+			  <h5 class="modal-title" id="CreatePostLabel">Pen Your Post</h5>
+			  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				<span aria-hidden="true">&times;</span>
+			  </button>
+			</div>
+			<div class="modal-body">
+			  ...
+			</div>
+			<div class="modal-footer">
+			  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+			  <button type="button" class="btn btn-primary">Save changes</button>
+			</div>
+		  </div>
+		</div>
+	  </div>
+
+	
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="https://use.fontawesome.com/c61476993f.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
