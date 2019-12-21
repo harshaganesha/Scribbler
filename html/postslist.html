@@ -2,38 +2,187 @@
 <html>
 
 <head>
-    <!-- TODO: Include Font Awesome file here -->
+    <!-- TODO: Include Font Awesome file here --><link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+	<!-- Bootstarp 4 -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <!-- TODO: Include Google Fonts file here -->
+	<link href="https://fonts.googleapis.com/css?family=Montez&display=swap" rel="stylesheet">
+	<link href="../styles/postlists.css" rel="stylesheet">
+	<link href="../styles/Common.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Ubuntu+Mono&display=swap" rel="stylesheet"> 
 </head>
 
 <body>
+    <div class="MainPostsBackground">
     <!-- TODO: Include code for header here -->
+    <header> 
+        <div class="ScribbleDiv">
+            <div class="Logo">
+                <h1 id="ScribblerId">Scibbler</h1>
+                <p>Explore, Imagine, Create</p>
+            </div>
+            <div class="Sign_Button">
+                <button type="submit" id="SignUp" data-toggle="modal" data-target="#SignUpModal">Sign Up</button>
+                <button type="submit" id= "SignIn" data-toggle="modal" data-target="#SignInModal">Sign In</button>
+            </div>
+        </div>
+    </header> 
 
     <!-- ATTENTION: The HTML code for the list of posts has been given to you. You can feel free to add/delete/modify this code. You need to write the proper CSS and JavaScript code corresponding to this page so that the result looks like the screenshots given to you in the Project Statement. -->
 
     <!-- list of all posts starts here -->
-    <div>
+    
 
-        <!-- post 1 starts here -->
-        <div>
-            <div>
-                <p>Srishti Gupta</p>
-            </div>
-
-            <div>
-                <div>
-                    <p>‘let’ me be a ‘const’(ant), not a ‘var’(iable)!</p>
-                    <span>
-                        <!-- TODO: Include Font Awesome icon for delete icon here -->
-                    </span>
+    <div class="container">
+        <div class="PostList">
+            <div class="row d-flex justify-content-center">
+                <div class="col-6">
+                    <!-- post 1 starts here -->
+                    <div class="card mb-3" >
+                        <div class="row no-gutters">
+                        <div class="col-md-2 Author">
+                            <p>Srishti Gupta</p>
+                        </div>
+                        <div class="col-md-10">
+                            <div class="card-body">
+                            <h6 class="card-title"> <p>‘let’ me be a ‘const’(ant), not a ‘var’(iable)!</p></h6>
+                            <span>
+                                <!-- TODO: Include Font Awesome icon for delete icon here -->
+                                <i class="fa fa-trash" aria-hidden="true"></i>
+                            </span>
+                            <p class="card-text">Since JavaScript does not have any type-checking, either of these keywords can be used to declare a variable of any type (datatype) in JavaScript. Though all the three keywords are used for the same purpose, they are different.</p>
+                            <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>-->
+                            <span>
+                                <!-- TODO: Include Font Awesome icon for horizontal ellipsis icon here -->
+                                <!-- <i class="fas fa-ellipsis-h"></i> -->
+                                <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+                            </span>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    <!-- post 1 original -->
                 </div>
-                <p>Since JavaScript does not have any type-checking, either of these keywords can be used to declare a variable of any type (datatype) in JavaScript. Though all the three keywords are used for the same purpose, they are different.</p>
-                <span>
-                    <!-- TODO: Include Font Awesome icon for horizontal ellipsis icon here -->
-                </span>
+
+                <div class="col-6">
+                    <!-- post 1 starts here -->
+                    <div class="card mb-3" >
+                        <div class="row no-gutters">
+                        <div class="col-md-2 Author">
+                            <p>Srishti Gupta</p>
+                        </div>
+                        <div class="col-md-10">
+                            <div class="card-body">
+                            <h6 class="card-title"> <p>‘let’ me be a ‘const’(ant), not a ‘var’(iable)!</p></h6>
+                            <span>
+                                <!-- TODO: Include Font Awesome icon for delete icon here -->
+                                <i class="fa fa-trash" aria-hidden="true"></i>
+                            </span>
+                            <p class="card-text">Since JavaScript does not have any type-checking, either of these keywords can be used to declare a variable of any type (datatype) in JavaScript. Though all the three keywords are used for the same purpose, they are different.</p>
+                            <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>-->
+                            <span>
+                                <!-- TODO: Include Font Awesome icon for horizontal ellipsis icon here -->
+                                <!-- <i class="fas fa-ellipsis-h"></i> -->
+                                <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+                            </span>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    <!-- post 1 original -->
+                </div>
+
+                <div class="col-6">
+                    <!-- post 1 starts here -->
+                    <div class="card mb-3" >
+                        <div class="row no-gutters">
+                        <div class="col-md-2 Author">
+                            <p>Srishti Gupta</p>
+                        </div>
+                        <div class="col-md-10">
+                            <div class="card-body">
+                            <h6 class="card-title"> <p>‘let’ me be a ‘const’(ant), not a ‘var’(iable)!</p></h6>
+                            <span>
+                                <!-- TODO: Include Font Awesome icon for delete icon here -->
+                                <i class="fa fa-trash" aria-hidden="true"></i>
+                            </span>
+                            <p class="card-text">Since JavaScript does not have any type-checking, either of these keywords can be used to declare a variable of any type (datatype) in JavaScript. Though all the three keywords are used for the same purpose, they are different.</p>
+                            <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>-->
+                            <span>
+                                <!-- TODO: Include Font Awesome icon for horizontal ellipsis icon here -->
+                                <!-- <i class="fas fa-ellipsis-h"></i> -->
+                                <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+                            </span>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    <!-- post 1 original -->
+                </div>
+
+                <div class="col-6">
+                    <!-- post 1 starts here -->
+                    <div class="card mb-3" >
+                        <div class="row no-gutters">
+                        <div class="col-md-2 Author">
+                            <p>Srishti Gupta</p>
+                        </div>
+                        <div class="col-md-10">
+                            <div class="card-body">
+                            <h6 class="card-title"> <p>‘let’ me be a ‘const’(ant), not a ‘var’(iable)!</p></h6>
+                            <span>
+                                <!-- TODO: Include Font Awesome icon for delete icon here -->
+                                <i class="fa fa-trash" aria-hidden="true"></i>
+                            </span>
+                            <p class="card-text">Since JavaScript does not have any type-checking, either of these keywords can be used to declare a variable of any type (datatype) in JavaScript. Though all the three keywords are used for the same purpose, they are different.</p>
+                            <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>-->
+                            <span>
+                                <!-- TODO: Include Font Awesome icon for horizontal ellipsis icon here -->
+                                <!-- <i class="fas fa-ellipsis-h"></i> -->
+                                <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+                            </span>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    <!-- post 1 original -->
+                </div>
+
+                <div class="col-6">
+                    <!-- post 1 starts here -->
+                    <div class="card mb-3" >
+                        <div class="row no-gutters">
+                        <div class="col-md-2 Author">
+                            <p>Srishti Gupta</p>
+                        </div>
+                        <div class="col-md-10">
+                            <div class="card-body">
+                            <h6 class="card-title"> <p>‘let’ me be a ‘const’(ant), not a ‘var’(iable)!</p></h6>
+                            <span>
+                                <!-- TODO: Include Font Awesome icon for delete icon here -->
+                                <i class="fa fa-trash" aria-hidden="true"></i>
+                            </span>
+                            <p class="card-text">Since JavaScript does not have any type-checking, either of these keywords can be used to declare a variable of any type (datatype) in JavaScript. Though all the three keywords are used for the same purpose, they are different.</p>
+                            <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>-->
+                            <span>
+                                <!-- TODO: Include Font Awesome icon for horizontal ellipsis icon here -->
+                                <!-- <i class="fas fa-ellipsis-h"></i> -->
+                                <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+                            </span>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    <!-- post 1 original -->
+                </div>
+
+                
             </div>
         </div>
-        <!-- post 1 ends here -->
+        
+
+    </div>
+    
 
         <!-- post 2 starts here -->
         <div>
@@ -125,6 +274,11 @@
 
     </div>
     <!-- list of all posts ends here -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://use.fontawesome.com/c61476993f.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
 </body>
 
 </html>

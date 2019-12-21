@@ -1,0 +1,44 @@
+.MainPostsBackground {
+    background-color: #ffeedd;
+}
+.PostList .fa-trash {
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    color: #818181;
+    cursor: pointer;
+}
+
+.PostList .fa-ellipsis-h {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    color: #818181;
+    cursor: pointer;
+}
+.PostList .card-text {
+    font-size: 14px;
+}
+.PostList .Author {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+
+    background-color: #ffffff;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+}
+    .PostList .Author p {
+        text-align: center;
+        color: #707070;
+        
+    }
+.PostList .card {
+    border-radius: 20px;
+    background-color: #e8e8e8;
+    box-shadow: 1px 1px 8px #b9b9b9;
+}
+.PostList .card-title {
+    color: #818181;
+}
