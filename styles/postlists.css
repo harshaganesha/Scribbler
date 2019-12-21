@@ -18,6 +18,11 @@
 }
 .PostList .card-text {
     font-size: 14px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
 }
 .PostList .Author {
     display: flex;
