@@ -1,62 +1,29 @@
-body {
-	
-}
-
 header {
-    padding: 1%;
-    background-color:LightGray;
-	
-    
+    padding: 10px;
 }
-
 #ScribblerId {
 	color: Blue;
 	margin-block-end: 0;
 	margin-block-start: 0.1em;
 	font-family: 'Montez', cursive;
 	font-size: 45px;
-	
 }
-
 #submenu {
 	font-family: 'Ubuntu Mono', monospace;
 	margin-top : 0;
 }
-
-#SignUp {
-	margin-right:2%;
-	margin-left:71%; 
-	border-width:3px;  
-    border-style:groove;
-}
-#SignIn {
-	margin-right:1%;
-	border-width:3px;
-    border-style:groove;
-}
-
-
-.Sign_Button {
-    background-color: blue;
-    color: #fff;
+button {
     padding: 14px 28px;
     font-size: 15px;
-    margin-top: 2px;
-    border: 0;
-    cursor: pointer;
-	height : 1%;
+    border: 1;
 	justify-content: left;
 	text-align: center;
-	
 }
-
+.Sign_Button button {
+    background-color: blue;
+    color: #fff;
+}
 .ScribbleDiv {
-	display: flex;
-    flex-direction: row;
-    
-    flex-wrap: wrap;
-}
-.Buttons_Div {
-	
-   
+    display: flex;
+    justify-content: space-between;
 }

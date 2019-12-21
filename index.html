@@ -6,6 +6,8 @@
 	 <!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
     <!-- TODO: Include Font Awesome file here -->
 	<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+	<!-- Bootstarp 4 -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <!-- TODO: Include Google Fonts file here -->
 	<link href="https://fonts.googleapis.com/css?family=Montez&display=swap" rel="stylesheet">
 	<link href="styles/index.css" rel="stylesheet">
@@ -15,22 +17,29 @@
 </head>
 
 <body>
-    <!-- TODO: Include all your code for the header and home page here -->
-	<header> 
-	<div class="ScribbleDiv">
-	<div >
-	<h1 id="ScribblerId">Scibbler</h1>
+	<!-- TODO: Include all your code for the header and home page here -->
+	<div class="MainBackground">
+		<header> 
+			<div class="ScribbleDiv">
+				<div class="Logo">
+					<h1 id="ScribblerId">Scibbler</h1>
+					<p>Explore, Imagine, Create</p>
+				</div>
+				<div class="Sign_Button">
+					<button type="submit" id="SignUp" >Sign Up</button>
+					<button type="submit" id= "SignIn" >Sign In</button>
+				</div>
+			</div>
+		</header> 
+		<div class="PostButton">
+			<button type="submit"  id="AllPosts" >All Posts</button>
+			<button type="submit"  id= "CreatePost" >Create Post</button>
+		</div>
+
 	</div>
-	<button type="submit" class = "Sign_Button" id="SignUp" >Sign Up</button>
-	<button type="submit" class = "Sign_Button" id= "SignIn" >Sign In</button>
-	</div>
-	<div class= "SubMenuDiv">
-	<div id="submenu">
-	 Explore, Imagine, Create
-	</div>
-	</div>
-	</header> 
+	
 
 <script src="https://use.fontawesome.com/c61476993f.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
 </html>
