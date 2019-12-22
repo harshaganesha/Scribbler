@@ -17,3 +17,11 @@ $(document).click("#like", function(){
     count = count + 1;
     value.innerHTML = count;
 })
+
+$(document).click("#CommentButtonId", function(){
+    comment = $('#EnterCommentId').innerHTML;
+    //var commentText = "<p>"+ comment + "</p>"
+    console.log("Test");
+    $( "#AllCommentstext" ).append("<p>"+ comment + "</p>" );
+
+})
