@@ -39,3 +39,7 @@ button {
 	border: antiquewhite;
 	border-radius: 0%;
 }
+.PlainText p {
+    text-align: center;
+    margin-top: 10px;
+}

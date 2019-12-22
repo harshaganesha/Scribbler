@@ -49,3 +49,16 @@
 .PostList .card-title {
     color: #818181;
 }
+.YesNoModal{
+    display: inline-block;
+    width: 70%;
+}
+.YesNoButton {
+    display: flex;
+    justify-content: space-between;
+}
+.YesNoButton button {
+    border-radius: 0%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
