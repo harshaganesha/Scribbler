@@ -30,13 +30,10 @@
 			</div>
 		</header>
 		<div class="PostButton">
-			<button type="submit"  id="AllPosts" data-toggle="modal" data-target="#AllPostsModal" >All Posts</button>
+			<button type="submit"  id="AllPosts" data-toggle="modal" data-target="#AllPostsModal">All Posts</button>
 			<button type="submit"  id= "CreatePost" data-toggle="modal" data-target="#CreatePostModal">Create Post</button>
 		</div>
-
 	</div>
-
-
 <!-- Sign up modal -->
 	<div class="modal fade" id="SignUpModal" tabindex="-1" role="dialog" aria-labelledby="SignUpModalLabel" aria-hidden="true">
 		<div class="modal-dialog" role="document">
@@ -47,7 +44,7 @@
 			  </button>
 			</div>
 			<div class="modal-body">
-				<form>
+				<form class="FormClass">
 					<div class="form-group">
 					  <label for="formGroupExampleInput">Name</label>
 					  <input type="text" class="form-control" id="formGroupExampleInput" placeholder="  Enter your name" required>
@@ -81,7 +78,7 @@
 			  </button>
 			</div>
 			<div class="modal-body">
-				<form>
+				<form class="FormClass">
 					<div class="form-group">
 					  <label for="formGroupExampleInput2">Username</label>
 					  <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="  Enter your username" required>
@@ -104,21 +101,29 @@
 	  </div>
 
 	  <!-- Create Post modal -->
-	<div class="modal fade" id="CreatePost" tabindex="-1" role="dialog" aria-labelledby="CreatePostLabel" aria-hidden="true">
-		<div class="modal-dialog" role="document">
+	  <div class="modal fade bd-example-modal-xl" id="CreatePostModal" tabindex="-1" role="dialog" aria-labelledby="CreatePostModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-xl" role="document">
 		  <div class="modal-content">
 			<div class="modal-header">
-			  <h5 class="modal-title" id="CreatePostLabel">Pen Your Post</h5>
-			  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-				<span aria-hidden="true">&times;</span>
+			  <h5 class="modal-title" id="CreatePostModalLabel">Pen Your Post</h5>
+			  <button type="button" class="close fa fa-times" data-dismiss="modal" aria-label="Close">
 			  </button>
 			</div>
 			<div class="modal-body">
-			  ...
-			</div>
-			<div class="modal-footer">
-			  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-			  <button type="button" class="btn btn-primary">Save changes</button>
+				<form class="FormClass">
+					<div class="form-group">
+					  <label for="formGroupExampleInput2">Title</label>
+					  <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Enter your post" required>
+					</div>
+					<div class="form-group">
+						<label for="exampleFormControlTextarea1">contents</label>
+						<textarea class="form-control" id="exampleFormControlTextarea1" rows="10" placeholder= "Enter the contents of your post"></textarea>
+					</div>
+					<p class="CreateBtnParagraph">
+						<button type="submit" class="btn btn-success ButtonCreate" id="CreateButton">Create</button>
+					</p>
+				  </form>
+				  <div></div>
 			</div>
 		  </div>
 		</div>
@@ -128,5 +133,6 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="https://use.fontawesome.com/c61476993f.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script src="scripts/index.js"></script>
 </body>
 </html>

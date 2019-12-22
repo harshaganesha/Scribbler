@@ -19,5 +19,11 @@
     text-align: center;
     margin-top: 10px;
 }
-
+.CreateBtnParagraph {
+    text-align: center;
+}
+.CreateBtnParagraph .ButtonCreate{
+    border-radius: 0;
+    padding-left: 30px;
+    padding-right: 30px;
 }
