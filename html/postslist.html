@@ -2,283 +2,222 @@
 <html>
 
 <head>
-    <!-- TODO: Include Font Awesome file here --><link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
-	<!-- Bootstarp 4 -->
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- TODO: Include Font Awesome file here -->
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <!-- Bootstarp 4 -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <!-- TODO: Include Google Fonts file here -->
-	<link href="https://fonts.googleapis.com/css?family=Montez&display=swap" rel="stylesheet">
-	<link href="../styles/postlists.css" rel="stylesheet">
-	<link href="../styles/Common.css" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Ubuntu+Mono&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Montez&display=swap" rel="stylesheet">
+    <link href="../styles/postlists.css" rel="stylesheet">
+    <link href="../styles/Common.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu+Mono&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <div class="MainPostsBackground">
-    <!-- TODO: Include code for header here -->
-    <header> 
-        <div class="ScribbleDiv">
-            <div class="Logo">
-                <h1 id="ScribblerId">Scibbler</h1>
-                <p>Explore, Imagine, Create</p>
+        <!-- TODO: Include code for header here -->
+        <header>
+            <div class="ScribbleDiv">
+                <div class="Logo">
+                    <h1 id="ScribblerId">Scibbler</h1>
+                    <p>Explore, Imagine, Create</p>
+                </div>
+                <div class="Sign_Button">
+                    <button type="submit" id="SignUp" data-toggle="modal" data-target="#SignUpModal">Sign Up</button>
+                    <button type="submit" id="SignIn" data-toggle="modal" data-target="#SignInModal">Sign In</button>
+                </div>
             </div>
-            <div class="Sign_Button">
-                <button type="submit" id="SignUp" data-toggle="modal" data-target="#SignUpModal">Sign Up</button>
-                <button type="submit" id= "SignIn" data-toggle="modal" data-target="#SignInModal">Sign In</button>
-            </div>
-        </div>
-    </header> 
+        </header>
 
-    <!-- ATTENTION: The HTML code for the list of posts has been given to you. You can feel free to add/delete/modify this code. You need to write the proper CSS and JavaScript code corresponding to this page so that the result looks like the screenshots given to you in the Project Statement. -->
+        <!-- ATTENTION: The HTML code for the list of posts has been given to you. You can feel free to add/delete/modify this code. You need to write the proper CSS and JavaScript code corresponding to this page so that the result looks like the screenshots given to you in the Project Statement. -->
 
-    <!-- list of all posts starts here -->
-    
+        <!-- list of all posts starts here -->
 
-    <div class="container">
-        <div class="PostList">
-            <div class="row d-flex justify-content-center">
-                <div class="col-6">
-                    <!-- post 1 starts here -->
-                    <div class="card mb-3" >
-                        <div class="row no-gutters">
-                        <div class="col-md-2 Author">
-                            <p>Srishti Gupta</p>
-                        </div>
-                        <div class="col-md-10">
-                            <div class="card-body">
-                            <h6 class="card-title"> <p>‘let’ me be a ‘const’(ant), not a ‘var’(iable)!</p></h6>
-                            <span>
-                                <!-- TODO: Include Font Awesome icon for delete icon here -->
-                                <i class="fa fa-trash" onclick="deletePost();" aria-hidden="true"></i>
-                            </span>
-                            <p class="card-text">Since JavaScript does not have any type-checking, either of these keywords can be used to declare a variable of any type (datatype) in JavaScript. Though all the three keywords are used for the same purpose, they are different.</p>
-                            <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>-->
-                            <span>
-                                <!-- TODO: Include Font Awesome icon for horizontal ellipsis icon here -->
-                                <!-- <i class="fas fa-ellipsis-h"></i> -->
-                                <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
-                            </span>
+
+        <div class="container">
+            <div class="PostList">
+                <div class="row d-flex justify-content-center">
+                    <div class="col-6">
+                        <!-- post 1 starts here -->
+                        <div class="card mb-3">
+                            <div class="row no-gutters">
+                                <div class="col-md-2 Author">
+                                    <p>Srishti Gupta</p>
+                                </div>
+                                <div class="col-md-10">
+                                    <div class="card-body">
+                                        <h6 class="card-title">
+                                            <p>‘let’ me be a ‘const’(ant), not a ‘var’(iable)!</p>
+                                        </h6>
+                                        <span>
+                                            <!-- TODO: Include Font Awesome icon for delete icon here -->
+                                            <i class="fa fa-trash" onclick="deletePost();" aria-hidden="true"></i>
+                                        </span>
+                                        <p class="card-text">Since JavaScript does not have any type-checking, either of
+                                            these keywords can be used to declare a variable of any type (datatype) in
+                                            JavaScript. Though all the three keywords are used for the same purpose,
+                                            they are different.</p>
+                                        <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>-->
+                                        <span>
+                                            <!-- TODO: Include Font Awesome icon for horizontal ellipsis icon here -->
+                                            <!-- <i class="fas fa-ellipsis-h"></i> -->
+                                            <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+                                        </span>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        </div>
+                        <!-- post 1 original -->
                     </div>
-                    <!-- post 1 original -->
-                </div>
 
-                <div class="col-6">
-                    <!-- post 1 starts here -->
-                    <div class="card mb-3" >
-                        <div class="row no-gutters">
-                        <div class="col-md-2 Author">
-                            <p>Srishti Gupta</p>
-                        </div>
-                        <div class="col-md-10">
-                            <div class="card-body">
-                            <h6 class="card-title"> <p>‘let’ me be a ‘const’(ant), not a ‘var’(iable)!</p></h6>
-                            <span>
-                                <!-- TODO: Include Font Awesome icon for delet"e icon here -->
-                                <i class="fa fa-trash"  onclick="deletePost();" aria-hidden="true"></i>
-                            </span>
-                            <p class="card-text">Since JavaScript does not have any type-checking, either of these keywords can be used to declare a variable of any type (datatype) in JavaScript. Though all the three keywords are used for the same purpose, they are different.</p>
-                            <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>-->
-                            <span>
-                                <!-- TODO: Include Font Awesome icon for horizontal ellipsis icon here -->
-                                <!-- <i class="fas fa-ellipsis-h"></i> -->
-                                <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
-                            </span>
+                    <div class="col-6">
+                        <!-- post 2 starts here -->
+                        <div class="card mb-3">
+                            <div class="row no-gutters">
+                                <div class="col-md-2 Author">
+                                    <p>Colby Fayock</p>
+                                </div>
+                                <div class="col-md-10">
+                                    <div class="card-body">
+                                        <h6 class="card-title">
+                                            <p>What is linting and how can it save you time?</p>
+                                        </h6>
+                                        <span>
+                                            <!-- TODO: Include Font Awesome icon for delet"e icon here -->
+                                            <i class="fa fa-trash" onclick="deletePost();" aria-hidden="true"></i>
+                                        </span>
+                                        <p class="card-text">One of the biggest challenges in software development is
+                                            time. It’s something we can’t easily get
+                                            more of, but linting can help us make the most out of the time we have.</p>
+                                        <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>-->
+                                        <span>
+                                            <!-- TODO: Include Font Awesome icon for horizontal ellipsis icon here -->
+                                            <!-- <i class="fas fa-ellipsis-h"></i> -->
+                                            <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+                                        </span>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        </div>
+                        <!-- post 2 ends here -->
                     </div>
-                    <!-- post 1 original -->
-                </div>
 
-                <div class="col-6">
-                    <!-- post 1 starts here -->
-                    <div class="card mb-3" >
-                        <div class="row no-gutters">
-                        <div class="col-md-2 Author">
-                            <p>Srishti Gupta</p>
-                        </div>
-                        <div class="col-md-10">
-                            <div class="card-body">
-                            <h6 class="card-title"> <p>‘let’ me be a ‘const’(ant), not a ‘var’(iable)!</p></h6>
-                            <span>
-                                <!-- TODO: Include Font Awesome icon for delete icon here -->
-                                <i class="fa fa-trash"  onclick="deletePost();" aria-hidden="true"></i>
-                            </span>
-                            <p class="card-text">Since JavaScript does not have any type-checking, either of these keywords can be used to declare a variable of any type (datatype) in JavaScript. Though all the three keywords are used for the same purpose, they are different.</p>
-                            <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>-->
-                            <span>
-                                <!-- TODO: Include Font Awesome icon for horizontal ellipsis icon here -->
-                                <!-- <i class="fas fa-ellipsis-h"></i> -->
-                                <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
-                            </span>
+                    <div class="col-6">
+                        <!-- post 3 starts here -->
+                        <div class="card mb-3">
+                            <div class="row no-gutters">
+                                <div class="col-md-2 Author">
+                                    <p>Yazeed Bzadough</p>
+                                </div>
+                                <div class="col-md-10">
+                                    <div class="card-body">
+                                        <h6 class="card-title">
+                                            <p>How to Get More Views on Your Tech Blog</p>
+                                        </h6>
+                                        <span>
+                                            <!-- TODO: Include Font Awesome icon for delete icon here -->
+                                            <i class="fa fa-trash" onclick="deletePost();" aria-hidden="true"></i>
+                                        </span>
+                                        <p class="card-text">If you're a developer with a Twitter account, you've
+                                            already seen everyone and their cat start a
+                                            blog, YouTube channel, or Patreon. We all want to become stars, or at the
+                                            very least, a recognizable
+                                            name in the industry.</p>
+                                        <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>-->
+                                        <span>
+                                            <!-- TODO: Include Font Awesome icon for horizontal ellipsis icon here -->
+                                            <!-- <i class="fas fa-ellipsis-h"></i> -->
+                                            <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+                                        </span>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        </div>
+                        <!-- post 3 ends here -->
                     </div>
-                    <!-- post 1 original -->
-                </div>
 
-                <div class="col-6">
-                    <!-- post 1 starts here -->
-                    <div class="card mb-3" >
-                        <div class="row no-gutters">
-                        <div class="col-md-2 Author">
-                            <p>Srishti Gupta</p>
-                        </div>
-                        <div class="col-md-10">
-                            <div class="card-body">
-                            <h6 class="card-title"> <p>‘let’ me be a ‘const’(ant), not a ‘var’(iable)!</p></h6>
-                            <span>
-                                <!-- TODO: Include Font Awesome icon for delete icon here -->
-                                <i class="fa fa-trash" onclick="deletePost();" aria-hidden="true"></i>
-                            </span>
-                            <p class="card-text">Since JavaScript does not have any type-checking, either of these keywords can be used to declare a variable of any type (datatype) in JavaScript. Though all the three keywords are used for the same purpose, they are different.</p>
-                            <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>-->
-                            <span>
-                                <!-- TODO: Include Font Awesome icon for horizontal ellipsis icon here -->
-                                <!-- <i class="fas fa-ellipsis-h"></i> -->
-                                <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
-                            </span>
+                    <div class="col-6">
+                        <!-- post 4 starts here -->
+                        <div class="card mb-3">
+                            <div class="row no-gutters">
+                                <div class="col-md-2 Author">
+                                    <p>Cedd Burge</p>
+                                </div>
+                                <div class="col-md-10">
+                                    <div class="card-body">
+                                        <h6 class="card-title">
+                                            <p>How to write easily describable code</p>
+                                        </h6>
+                                        <span>
+                                            <!-- TODO: Include Font Awesome icon for delete icon here -->
+                                            <i class="fa fa-trash" onclick="deletePost();" aria-hidden="true"></i>
+                                        </span>
+                                        <p class="card-text">When code is not describable using words, most people have
+                                            to do some mental mapping to turn it in to
+                                            words. This wastes mental energy, and you run the risk of getting the
+                                            mapping wrong. Different
+                                            people will map to different words, which
+                                            leads to confusion when discussing the code.</p>
+                                        <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>-->
+                                        <span>
+                                            <!-- TODO: Include Font Awesome icon for horizontal ellipsis icon here -->
+                                            <!-- <i class="fas fa-ellipsis-h"></i> -->
+                                            <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+                                        </span>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        </div>
+                        <!-- post 4 ends here -->
                     </div>
-                    <!-- post 1 original -->
-                </div>
 
-                <div class="col-6">
-                    <!-- post 1 starts here -->
-                    <div class="card mb-3" >
-                        <div class="row no-gutters">
-                        <div class="col-md-2 Author">
-                            <p>Srishti Gupta</p>
-                        </div>
-                        <div class="col-md-10">
-                            <div class="card-body">
-                            <h6 class="card-title"> <p>‘let’ me be a ‘const’(ant), not a ‘var’(iable)!</p></h6>
-                            <span>
-                                <!-- TODO: Include Font Awesome icon for delete icon here -->
-                                <i class="fa fa-trash" onclick="deletePost();" aria-hidden="true"></i>
-                            </span>
-                            <p class="card-text">Since JavaScript does not have any type-checking, either of these keywords can be used to declare a variable of any type (datatype) in JavaScript. Though all the three keywords are used for the same purpose, they are different.</p>
-                            <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>-->
-                            <span>
-                                <!-- TODO: Include Font Awesome icon for horizontal ellipsis icon here -->
-                                <!-- <i class="fas fa-ellipsis-h"></i> -->
-                                <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
-                            </span>
+                    <div class="col-6">
+                        <!-- post 5 starts here -->
+                        <div class="card mb-3">
+                            <div class="row no-gutters">
+                                <div class="col-md-2 Author">
+                                    <p>Srishti Gupta</p>
+                                </div>
+                                <div class="col-md-10">
+                                    <div class="card-body">
+                                        <h6 class="card-title">
+                                            <p>Everything you should know about ‘module’ & ‘require’ in Node.js</p>
+                                        </h6>
+                                        <span>
+                                            <!-- TODO: Include Font Awesome icon for delete icon here -->
+                                            <i class="fa fa-trash" onclick="deletePost();" aria-hidden="true"></i>
+                                        </span>
+                                        <p class="card-text">Node.js treats each JavaScript file as a separate module.
+                                            For instance, if you have a file containing
+                                            some code and this file is named xyz.js, then this file is treated as a
+                                            module in Node, and you can
+                                            say that you’ve created a module
+                                            named xyz.</p>
+                                        <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>-->
+                                        <span>
+                                            <!-- TODO: Include Font Awesome icon for horizontal ellipsis icon here -->
+                                            <!-- <i class="fas fa-ellipsis-h"></i> -->
+                                            <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+                                        </span>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        </div>
+                        <!-- post 5 ends here -->
                     </div>
-                    <!-- post 1 original -->
                 </div>
-
-                
             </div>
         </div>
-        
-
-    </div>
-    
-
-        <!-- post 2 starts here -->
-        <div>
-            <div>
-                <p>Colby Fayock</p>
-            </div>
-
-            <div>
-                <div>
-                    <p>What is linting and how can it save you time?</p>
-                    <span>
-                        <!-- TODO: Include Font Awesome icon for delete icon here -->
-                    </span>
-                </div>
-                <p>One of the biggest challenges in software development is time. It’s something we can’t easily get more of, but linting can help us make the most out of the time we have.</p>
-                <span>
-                    <!-- TODO: Include Font Awesome icon for horizontal ellipsis icon here -->
-                </span>
-            </div>
-        </div>
-        <!-- post 2 ends here -->
-
-        <!-- post 3 starts here -->
-        <div>
-            <div>
-                <p>Yazeed Bzadough</p>
-            </div>
-
-            <div>
-                <div>
-                    <p>How to Get More Views on Your Tech Blog</p>
-                    <span>
-                        <!-- TODO: Include Font Awesome icon for delete icon here -->
-                    </span>
-                </div>
-                <p>If you're a developer with a Twitter account, you've already seen everyone and their cat start a blog, YouTube channel, or Patreon. We all want to become stars, or at the very least, a recognizable name in the industry.</p>
-                <span>
-                    <!-- TODO: Include Font Awesome icon for horizontal ellipsis icon here -->
-                </span>
-            </div>
-        </div>
-        <!-- post 3 ends here -->
-
-        <!-- post 4 starts here -->
-        <div>
-            <div>
-                <p>Cedd Burge</p>
-            </div>
-
-            <div>
-                <div>
-                    <p>How to write easily describable code</p>
-                    <span>
-                        <!-- TODO: Include Font Awesome icon for delete icon here -->
-                    </span>
-                </div>
-                <p>When code is not describable using words, most people have to do some mental mapping to turn it in to words. This wastes mental energy, and you run the risk of getting the mapping wrong. Different people will map to different words, which
-                    leads to confusion when discussing the code.</p>
-                <span>
-                    <!-- TODO: Include Font Awesome icon for horizontal ellipsis icon here -->
-                </span>
-            </div>
-        </div>
-        <!-- post 4 ends here -->
-
-        <!-- post 5 starts here -->
-        <div>
-            <div>
-                <p>Srishti Gupta</p>
-            </div>
-
-            <div>
-                <div>
-                    <p>Everything you should know about ‘module’ & ‘require’ in Node.js</p>
-                    <span>
-                        <!-- TODO: Include Font Awesome icon for delete icon here -->
-                    </span>
-                </div>
-                <p>Node.js treats each JavaScript file as a separate module. For instance, if you have a file containing some code and this file is named xyz.js, then this file is treated as a module in Node, and you can say that you’ve created a module
-                    named xyz.</p>
-                <span>
-                    <!-- TODO: Include Font Awesome icon for horizontal ellipsis icon here -->
-                </span>
-            </div>
-        </div>
-        <!-- post 5 ends here -->
-
-        <!-- TODO: Write code for delete post modal here -->
-
     </div>
     <!-- list of all posts ends here -->
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<script src="https://use.fontawesome.com/c61476993f.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-<script src="../scripts/postlists.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://use.fontawesome.com/c61476993f.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <script src="../scripts/postlists.js"></script>
 </body>
 
 </html>
