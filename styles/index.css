@@ -1,4 +1,4 @@
-.MainBackground {
+.MainIndexBackground {
     background-image: url(../images/background.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -14,4 +14,10 @@
 .PostButton button{
 	background-color: #cfb53b;
     color: #000;
+}
+.PlainText p {
+    text-align: center;
+    margin-top: 10px;
+}
+
 }
