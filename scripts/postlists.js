@@ -17,8 +17,18 @@
     };
 
 
-function deletePost() {
-    event.stopPropagation();
-    var par = document.querySelector(".fa-trash").closest(".col-6");
-    par.remove();
-};
+// function deletePost() {
+//     event.stopPropagation();
+//     var par = document.querySelector(".fa-trash").closest(".col-6");
+//     par.remove();
+// };
+
+
+$(".fa-trash").click(function(){
+    $(this).addClass("clicked");
+    console.log("clicked");
+});
+$(".yesButton").click(function(){
+    $(".clicked").parents(".col-6").remove();
+    console.log("removed");
+})

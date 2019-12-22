@@ -7,3 +7,29 @@
     display: flex;
     justify-content: space-between;
 }
+
+.FullPost {
+    padding-top: 20px;
+    font-size: 14px;
+    border: 0px;
+}
+.LikeCount {
+    padding-top: 10px;
+}
+.EnterComment {
+    padding-top: 10px;
+    width: 85%;
+}
+.AllComments{
+    padding-top: 10px;
+}
+.AllCommentstext {
+    background-color: #f1f1f1;
+    border: black;
+    border-width: 1px;
+    padding: 10px;
+}
+.AllCommentstext p{
+    padding-top: 10px;;
+    background-color: white;
+}

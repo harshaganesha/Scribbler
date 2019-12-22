@@ -1,5 +1,6 @@
 .MainPostsBackground {
     background-color: #ffeedd;
+    height: 100vh;
 }
 .PostList .fa-trash {
     position: absolute;
@@ -41,11 +42,11 @@
 .PostList .card {
     border-radius: 20px;
     background-color: #e8e8e8;
+    transition: box-shadow 0.3s ease-in-out;
+}
+ .PostList .card:hover {
     box-shadow: 1px 1px 8px #b9b9b9;
 }
-/* .PostList .card :hover {
-    transition: box-shadow 0.3s ease-in-out;
-} */
 .PostList .card-title {
     color: #818181;
 }
